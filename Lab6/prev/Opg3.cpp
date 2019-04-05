@@ -1,0 +1,26 @@
+#include <Arduino.h>
+#define C1 260 
+#define D 292
+#define E 328
+#define F 348
+#define G 392
+#define A 440
+#define H 492
+#define C2 520
+
+int i = 0;
+
+void setup(){
+    Serial.begin(9600);
+    pinMode(12, OUTPUT);
+}
+void loop(){
+    int tones[8] = {C1, D, E, F, G, A, H, C2};
+    Serial.println(tones[i]);
+    tone(12, tones[i], 390);
+    if(i <= 8)
+        i++;
+    else 
+        i = 0;
+    delay(400);
+}
