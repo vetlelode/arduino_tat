@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/vetle/.platformio/penv/bin:/home/vetle/.platformio/penv:/home/vetle/.nvm/versions/node/v11.10.0/bin:/home/vetle/anaconda3/bin:/home/vetle/.rvm/gems/ruby-2.6.2/bin:/home/vetle/.rvm/gems/ruby-2.6.2@global/bin:/home/vetle/.rvm/rubies/ruby-2.6.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/vetle/.rvm/bin:/usr/local/go/bin:/home/vetle/Documents/code/go/bin:/home/vetle/.rvm/bin:/snap/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
